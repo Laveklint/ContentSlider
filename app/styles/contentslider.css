@@ -1,0 +1,24 @@
+.contentslider-wrapper {
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.contentslider-bleed {
+	overflow: visible;
+}
+
+.contentslider-inner {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.contentslider-wrapper .contentslider-item {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+}
+
+.contentslider-wrapper .contentslider-active-item {
+}

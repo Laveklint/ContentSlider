@@ -1,0 +1,104 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+ul, ul li {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+h2 {
+	font-size: 16px;
+	line-height: 16px;
+}
+
+p {
+	font-size: 12px;
+}
+
+body {
+	font-family: 'Arial';
+	font-size: 13px;
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	width: 1060px;
+	max-width: 100%;
+}
+
+#myshow {
+	width: 970px;
+	max-width: 95%;
+	height: 400px;
+	position: relative;
+}
+
+#myshow li {
+	width: 970px;
+	height: 400px;
+}
+
+#myshow li img {
+	max-width: 100%;
+	height: auto;
+}
+
+.caption {
+	position: absolute;
+	bottom: 0px;
+	background: rgba(0,0,0, 0.3);
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 8px 15px;
+	color: white;
+}
+
+.nav {
+	background: rgba(255,255,255, 0.88);
+	border-radius: 18px;
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	text-align: center;
+	padding: 8px 0 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: black;
+	text-decoration: none;
+	top: 90px;
+	left: -10px;
+	box-shadow: 0px 0px 4px #333;
+	z-index: 10;
+}
+
+.btn-next {
+	left: auto;
+	right: -10px;
+}
+
+
+#pag-container {
+	background: #333;
+	border-radius: 125px;
+	padding: 4px 8px;
+	overflow: hidden;
+	display: inline-block;
+	margin: 20px auto;
+}
+
+#pag-container ul li {
+	background: #666;
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	float: left;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+#pag-container ul li.active-li {
+	background: white;
+}

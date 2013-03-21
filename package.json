@@ -1,0 +1,15 @@
+{
+  "author": "Pierre Laveklint",
+  "name": "ContentSlider",
+  "version": "0.1",
+  "dependencies": {
+  	"yeoman": "*",
+    "jquery":"*",
+  	"modernizr":"*"
+  },
+  "devDependencies": {
+  	"mocha":"*",
+  	"expect":"*",
+  	"jquery":"*"
+  }
+}
